@@ -1,0 +1,5 @@
+Enter the following code in cloudshell
+
+export PROJECT_ID=your_project_id #(replace with your project ID)
+export VM_NAME=nginx-vm
+export ZONE=us-central1-a
