@@ -1,4 +1,4 @@
-# Web-Server-with-Load-Balancer-and-DNS
+# Step-by-Step Guide to Setting Up Nginx on a VM, Creating a MIG, and Configuring a Load Balancer and DNS in GCP
 This project involves setting up a basic web server Nginx on a Virtual Machine (VM)
 You'll then create a Managed Instance Group (MIG) to easily manage and scale your VMs. To distribute traffic and ensure high availability, 
 a Layer 7 Load Balancer will be placed in front of the MIG. Finally, you'll configure DNS to map a user-friendly 
