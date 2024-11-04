@@ -1,1 +1,15 @@
+Step 1: Create an Instance Template
+
+Define an instance template:
+
+gcloud compute instance-templates create nginx-template \
+    --machine-type=f1-micro \
+    --tags=http-server \
+    --image-family=debian-10 \
+    --image-project=debian-cloud \
+    --metadata=startup-script='#! /bin/bash
+      sudo apt-get update
+      sudo apt-get install nginx -y
+      sudo ufw allow "Nginx HTTP"
+      sudo ufw enable'
 
